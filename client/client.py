@@ -25,7 +25,8 @@ console = Console()
 # Load environment variables
 load_dotenv()
 
-server_ip = os.getenv("SERVER_IP")
+# Change this line in the client.py file
+server_ip = os.getenv("SERVER_IP", "localhost")  # Use hostname instead of IP
 port = int(os.getenv("PORT"))
 
 class ChatClient:
