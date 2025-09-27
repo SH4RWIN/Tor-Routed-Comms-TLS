@@ -1,0 +1,5 @@
+dotenv
+colorama
+rich
+pysocks
+cryptography
